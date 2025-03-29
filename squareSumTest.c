@@ -9,6 +9,7 @@ int isLoShuSquare(int square[3][3]) {
         square[0][2] + square[1][1] + square[2][0] == sum) {
         return 1;
     }
+    
     else {
         return 0;
     }
